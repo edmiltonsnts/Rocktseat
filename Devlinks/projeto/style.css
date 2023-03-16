@@ -27,6 +27,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
 }
+
 body * {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
@@ -88,9 +89,10 @@ ul li a{
 }
 /*Pseudo-selector */
 ul li a:hover {
-  background: var(--surface-color-hover)
+  background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
+
  /*social-links*/
  #social-links {
   display: flex;
