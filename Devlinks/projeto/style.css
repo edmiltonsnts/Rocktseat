@@ -40,3 +40,18 @@ body * {
   line-height: 24px;
   margin-top: 8px;
 }
+
+/*Links - listas */
+ul {
+  list-style: none;
+}
+
+ul li a{
+  border: 1px solid red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+}
