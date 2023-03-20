@@ -15,6 +15,6 @@ if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar2.png")
 } else {
     //Se tiver sem, manter o normal
-    img.setAttribute("src", "./assets/avatar.pnj")
+    img.setAttribute("src", "./assets/avatar.png")
 }
 }
